@@ -1,0 +1,50 @@
+/*에스코어드림Hvy*/
+@font-face { font-family: 'S-CoreDream-8Heavy';
+    font-family: 'S-CoreDream-8Heavy'; 
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-8Heavy.woff') format('woff'); 
+    font-weight: normal; 
+    font-style: normal; 
+}
+
+/*에스코어드림Lt*/
+@font-face { font-family: 'S-CoreDream-3Light'; 
+src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff'); 
+font-weight: normal; 
+font-style: normal; 
+}
+
+body{
+    font-family: 'S-CoreDream-3Light';
+}
+
+/* navbar */
+nav{
+    background-color: rgba(#ffffff,#ffffff ,#ffffff, 0.1);
+}
+nav a{
+    color: #111111;
+}
+
+.navbar-brand{
+    font-family: 'S-CoreDream-8Heavy';
+    font-size: 25px;
+}
+
+.nav-item{
+    font-size: 18px;
+}
+
+/* footer */
+footer{
+    box-sizing: border-box;
+    text-align: center;
+    width: auto;
+    background-color: #585858;
+    font-size: 21px;
+     margin: 10px 0;
+    padding: 40px;
+}
+
+footer a{
+    color: #F89A1A;
+}

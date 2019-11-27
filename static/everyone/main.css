@@ -1,0 +1,176 @@
+/*에스코어드림Hvy*/
+@font-face { font-family: 'S-CoreDream-8Heavy';
+    font-family: 'S-CoreDream-8Heavy'; 
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-8Heavy.woff') format('woff'); 
+    font-weight: normal; 
+    font-style: normal; 
+}
+
+/*에스코어드림Lt*/
+@font-face { font-family: 'S-CoreDream-3Light'; 
+src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff'); 
+font-weight: normal; 
+font-style: normal; 
+}
+
+body{
+    font-family: 'S-CoreDream-3Light';
+}
+
+/* nav */
+.main-nav{
+    font-size: 25px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+.nav-item{
+    padding: 10px;
+}
+
+.main-nav a{
+    color: #111111;
+}
+
+#nav-head {
+    font-family: 'S-CoreDream-8Heavy';
+    color: #F89A1A;
+    font-size: 30px;
+    padding: 5px;
+}
+
+/* header */
+header{
+    height: auto;
+}
+
+.header-lion{
+    width: 100%;
+    opacity: 50%;
+    position: relative;
+    box-sizing: inherit;
+}
+
+.main-header-text{
+    box-sizing: border-box;
+    width: 900px;
+    text-align: center;
+}
+
+.main-nav-h1,.main-nav-h2{
+    font-family: 'S-CoreDream-8Heavy';
+    font-size: 70px;
+    color: #111111;
+    position: relative;
+    opacity: 70%;
+    top: -650px;
+    left: -120px;
+}
+
+.main-nav-h2{
+    color: #F89A1A;
+}
+
+#detail{
+    color: #111111;
+}
+
+/* 간단 소개 */
+#main-introduce{
+    position: relative;
+    top: -190px;
+    text-align: center;
+    background-color: #111111;
+}
+
+.int-executive{
+    font-family: 'S-CoreDream-8Heavy';
+    font-size: 50px;
+    color: #F89A1A;
+    margin: 10px;
+    padding-top: 50px;
+}
+
+.main-int-executive{
+    display: flex;
+    padding: 20px;
+    padding-left: 100px;
+}
+
+.main-int-exe{
+    box-sizing: border-box;
+    margin: 20px;
+}
+
+.main-int-exe-img{
+    width: 300px;
+}
+
+#main-int-exe-name{
+    font-size: 30px;
+    color: #F89A1A;
+}
+
+#main-int-exe-con{
+    font-size: 20px;
+    color: #ffffff;
+}
+
+
+/* 반응형 */
+@media(max-width : 960px){
+    /* nav */
+    .main-nav{
+        font-size: 15px;
+        position: absolute;
+        text-align: center;
+        width: 100%;
+    }
+
+    #nav-head {
+        font-family: 'S-CoreDream-8Heavy';
+        color: #F89A1A;
+        font-size: 20px;
+        padding: 5px;
+    }
+
+    /* header */
+    .main-nav-h1,.main-nav-h2{
+        font-family: 'S-CoreDream-8Heavy';
+        font-size: 40px;
+        color: #111111;
+        position: relative;
+        opacity: 80%;
+        top: -360px;
+        left: -275px;
+    }
+
+    .main-nav-h2{
+        color: #F89A1A;
+    }
+
+    /* 간단한소개 */
+    .int-executive{
+        font-family: 'S-CoreDream-8Heavy';
+        font-size: 30px;
+        color: #F89A1A;
+        margin: 10px;
+        padding-top: 50px;
+    }
+
+    .main-int-executive{
+        display: flex;
+        padding: 10px;
+        padding-left: 50px;
+    }
+    
+    .main-int-exe{
+        box-sizing: border-box;
+        margin: 10px;
+    }
+    
+    .main-int-exe-img{
+        width: 150px;
+    }
+}
