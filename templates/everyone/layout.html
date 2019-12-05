@@ -13,13 +13,21 @@
   <link href="{% static 'everyone/layout.css' %}" rel="stylesheet">
   <!--board css연결링크-->  
   <link href="{% static 'everyone/board.css' %}" rel="stylesheet">
+  <!--introduce css연결링크-->  
+  <link href="{% static 'everyone/introduce.css' %}" rel="stylesheet">
+  <!--sign in css연결링크-->  
+  <link href="{% static 'everyone/signin.css' %}" rel="stylesheet">
+  <!--sign up css연결링크-->  
+  <link href="{% static 'everyone/signup.css' %}" rel="stylesheet">
+
   
   <title>LIKELION × SKHU</title>
 </head>
 
 <body>
+  <!--비유저-->
   <nav class="navbar">
-    <a class="navbar-brand" href="#">LIKELION</a>
+    <a class="navbar-brand" id="likelion" href="#">LIKELION</a>
     <strong>
       <ul class="nav justify-content-end">
         <li class="nav-item">
@@ -35,6 +43,51 @@
     </strong>
   </nav>
 
+  <!-- 유저-->
+  <!--<nav class="navbar">
+    <a class="navbar-brand" id="likelion" href="#">LIKELION</a>
+    <strong>
+      <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link" href="#">소개</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">게시판</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">지원서(합격자조회)</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">로그아웃</a>
+        </li>
+      </ul>
+    </strong>
+  </nav> -->
+
+  <!--운영진-->
+  <!-- <nav class="navbar">
+      <a class="navbar-brand" id="likelion" href="#">LIKELION</a>
+      <strong>
+        <ul class="nav justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link" href="#">소개</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">게시판</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">지원서목록</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">합격자목록</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">로그아웃</a>
+          </li>
+        </ul>
+      </strong>
+    </nav> -->
+  
   
   {% block content %}
   {% endblock %}
@@ -42,8 +95,8 @@
   <!--footer-->
   <footer>
     <div class="footer">
-      <p>Copyright &copy; LIKELION × SKHU</p>
-      <a href="https://www.facebook.com/SkhuLion/">LIKELION FACEBOOK LINK</a>
+      <strong><p>Copyright &copy; LIKELION × SKHU</p></strong>
+      <a href="https://www.facebook.com/SkhuLion/">LIKELION × SKHU FACEBOOK</a>
     </div>
   </footer>
 

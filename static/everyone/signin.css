@@ -1,0 +1,43 @@
+/* article */
+#signin{
+    box-sizing: border-box;
+    margin: 30px;
+    padding: 50px;
+    text-align: center;
+}
+
+/* signin-header */
+.signin-header{
+    box-sizing: border-box;
+    font-family: 'S-CoreDream-8Heavy';
+    font-size: 60px;
+    margin: 30px 0 50px;
+}
+
+#signin-LL{
+    color: #F89A1A;
+}
+
+/* signin-contents */
+.signin-contents{
+    box-sizing: border-box;
+}
+
+.signin-contents input{
+    font-size: 20px;
+    width: 500px;
+    height: 70px;
+    padding: 10px;
+    margin: 20px;
+}
+
+.signin-contents button{
+    background: #F89A1A;
+    border: #F89A1A solid 2px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: #111111;
+    width: 500px;
+    height: 70px;
+    margin: 10px;
+}

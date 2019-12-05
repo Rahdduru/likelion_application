@@ -15,6 +15,7 @@ font-style: normal;
 
 body{
     font-family: 'S-CoreDream-3Light';
+    height: 2000px;
 }
 
 /* nav */
@@ -80,6 +81,7 @@ header{
 #main-introduce{
     position: relative;
     top: -190px;
+    height: 1000px;
     text-align: center;
     background-color: #111111;
 }
@@ -89,13 +91,11 @@ header{
     font-size: 50px;
     color: #F89A1A;
     margin: 10px;
-    padding-top: 50px;
+    padding-top: 200px;
 }
 
 .main-int-executive{
     display: flex;
-    padding: 20px;
-    padding-left: 100px;
 }
 
 .main-int-exe{
@@ -104,7 +104,7 @@ header{
 }
 
 .main-int-exe-img{
-    width: 300px;
+    width: 80%;
 }
 
 #main-int-exe-name{
@@ -117,9 +117,30 @@ header{
     color: #ffffff;
 }
 
+/* footer */
+footer{
+    position: relative;
+    top: -190px;
+    box-sizing: border-box;
+    text-align: center;
+    width: auto;
+    background-color: #585858;
+    font-size: 21px;
+    padding: 60px 50px;
+}
+
+footer a{
+    color: #F89A1A;
+}
+
 
 /* 반응형 */
 @media(max-width : 960px){
+    /* body */
+    body{
+        height: 1000px;
+    }
+
     /* nav */
     .main-nav{
         font-size: 15px;
@@ -151,12 +172,20 @@ header{
     }
 
     /* 간단한소개 */
+    #main-introduce{
+        position: relative;
+        top: -115px;
+        height: 600px;
+        text-align: center;
+        background-color: #111111;
+    }
+
     .int-executive{
         font-family: 'S-CoreDream-8Heavy';
         font-size: 30px;
         color: #F89A1A;
         margin: 10px;
-        padding-top: 50px;
+        padding-top: 80px;
     }
 
     .main-int-executive{
@@ -172,5 +201,15 @@ header{
     
     .main-int-exe-img{
         width: 150px;
+    }
+
+    #main-int-exe-con{
+        font-size: 15px;
+        color: #ffffff;
+    }
+
+    /* footer */
+    footer{
+        height: 200px;
     }
 }

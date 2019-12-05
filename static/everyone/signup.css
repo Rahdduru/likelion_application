@@ -1,0 +1,50 @@
+/* article */
+#signup{
+    text-align: center;
+}
+
+/* signup-haeder */
+#signup-LL{
+    font-family: 'S-CoreDream-8Heavy';
+    font-size: 25px;
+    margin: 90px 0 0;
+}
+
+#signup-LL a{
+    font-family: 'S-CoreDream-8Heavy';
+    color: #F89A1A;
+    font-size: 25px;
+}
+
+#signup-h{
+    font-family: 'S-CoreDream-8Heavy';
+    font-size: 60px;
+}
+
+/* signup-content */
+.signup-content div{
+    box-sizing: border-box;
+}
+
+.signup-content input{
+    font-size: 20px;
+    width: 500px;
+    height: 70px;
+    padding: 10px;
+    margin: 20px;
+}
+
+#signup-warning-message{
+    color: #ff1111;
+}
+
+.signup-content button{
+    background: #F89A1A;
+    border: #F89A1A solid 2px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: #111111;
+    width: 500px;
+    height: 70px;
+    margin: 10px 0 50px;
+}

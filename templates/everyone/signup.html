@@ -1,3 +1,31 @@
 {% extends 'everyone/layout.html' %}
 {% block content %}
+<article id="signup">
+    <div class="signup-header">
+        <p id="signup-LL"><a>LIKELION</a> × SKHU</p>
+        <p id="signup-h">SIGN UP</p>
+    </div>
+    <div class="signup-content">
+        <div><input placeholder="이름"></div>
+        <div><input placeholder="아이디"></div>
+        <div>
+            <input placeholder="비밀번호" value="">
+            <p id="signup-warning-message">
+                ※비밀번호 확인 기능이 없습니다.<br>
+                잘못 입력하지 않게 주의해주세요.
+            </p>
+        </div>
+        <div><input placeholder="학번"></div>
+        <div><input placeholder="전공"></div>
+        <div><input placeholder="학년"></div>
+        <div><input placeholder="전화번호"></div>
+        <div>
+            <p id="signup-warning-message">
+                ※아이디/비밀번호 찾기 기능이 없습니다.<br>
+                아이디 또는 비밀번호를 잊지않게 주의해주세요.
+            </p>
+        </div>
+        <a><button type="button"><strong>회원가입</strong></button></a>
+    </div>
+</article>
 {% endblock %}

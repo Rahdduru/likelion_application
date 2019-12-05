@@ -1,5 +1,5 @@
 /*에스코어드림Hvy*/
-@font-face { font-family: 'S-CoreDream-8Heavy';
+@font-face {
     font-family: 'S-CoreDream-8Heavy'; 
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-8Heavy.woff') format('woff'); 
     font-weight: normal; 
@@ -19,10 +19,10 @@ body{
 
 /* navbar */
 nav{
-    background-color: rgba(#ffffff,#ffffff ,#ffffff, 0.1);
+    background-color: #111111;
 }
 nav a{
-    color: #111111;
+    color: #ffffff;
 }
 
 .navbar-brand{
@@ -34,6 +34,10 @@ nav a{
     font-size: 18px;
 }
 
+#likelion{
+    color: #F89A1A;
+}
+
 /* footer */
 footer{
     box-sizing: border-box;
@@ -41,10 +45,12 @@ footer{
     width: auto;
     background-color: #585858;
     font-size: 21px;
-     margin: 10px 0;
+    margin: 10px 0 0;
     padding: 40px;
 }
 
 footer a{
+    font-family: 'S-CoreDream-8Heavy';
     color: #F89A1A;
+    font-size: 17px;
 }

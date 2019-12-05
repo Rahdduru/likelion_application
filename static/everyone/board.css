@@ -48,16 +48,16 @@ article{
 }
 
 .qna-board{
-    font-size: 30px;
+    font-size: 40px;
     margin: 10px;
+    text-align: center;
 }
 
 .qna-write-con{
     box-sizing: border-box;
+    color: #F89A1A;
     text-align: center;
     font-size: 15px;
-    border: #111111 solid 0.9px;
-    border-radius: 5px;
     width: auto;
     padding: 9px;
 }
@@ -92,10 +92,13 @@ article{
 }
 
 /* board-button */
-.board-button{
+.board-button button{
     box-sizing: border-box;
-    width: auto;
-    height: auto;
+    background-color: rgba(0, 0, 0, 0);
+    border: #F89A1A solid 0.9px;
+    border-radius: 5px;
+    width: 100px;
+    height: 50px;
     margin: 20px 0;
 }
 
@@ -104,4 +107,22 @@ article{
     font-size: 18px;
     text-align: end;
     width: auto;
+}
+
+/* 반응형 */
+@media(max-width : 960px){
+    /* board-content */
+    .board-con-l{
+        display: inline;
+        font-size: 23px;
+        text-align: center;
+        padding: 0 10px;
+        margin: 0 82px;
+    }
+
+    .board-con-con{
+        display: inline;
+        font-size: 18px;
+        margin: 0 30px;
+    }
 }
